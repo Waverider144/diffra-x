@@ -1,0 +1,29 @@
+# Build products
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.a
+*.so
+*.out
+
+# Runtime outputs (curated README assets remain tracked)
+output/
+Python/output/
+/test_target.png
+*.ncu-rep
+*.nsys-rep
+*.npz
+*.npy
+*.pt
+*.pth
+
+# Python and editor state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store

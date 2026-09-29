@@ -1,0 +1,36 @@
+# ==========================================
+# Core ignores: model files, images, profiler outputs, and generated data
+# ==========================================
+*.pt
+*.png
+*.ncu-rep
+*.nsys-rep
+*.npz
+*.out
+*.npy
+*.o
+*.dat
+
+# Optional: keep these ignored for common model and image formats.
+*.pth
+*.onnx
+*.jpg
+*.jpeg
+!input/benchmark.jpeg
+
+# ==========================================
+# Common development artifacts
+# ==========================================
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.output/
+
+# Operating system and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
